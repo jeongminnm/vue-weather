@@ -35,7 +35,7 @@ export default {
             const positions = mapAxis.map((position) => (
                 {
                     latlng: new kakao.maps.LatLng(...position.latlng),
-                    cityName;
+                    cityName
                 }));
 
                 positions.forEach((item)=>{
